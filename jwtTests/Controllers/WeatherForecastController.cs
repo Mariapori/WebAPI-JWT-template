@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using System.Net;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace jwtTests.Controllers;
@@ -45,7 +46,8 @@ public class WeatherForecastController : ControllerBase
     {
         if (string.IsNullOrEmpty(userModel.UserName) || string.IsNullOrEmpty(userModel.Password))
         {
-            return "Jokin meni pieleen!";
+            var tokenResponse = new Token { token = "" };
+            return Newtonsoft.Json.JsonConvert.SerializeObject(tokenResponse);
         }
 
         IActionResult response = Unauthorized();
@@ -59,16 +61,19 @@ public class WeatherForecastController : ControllerBase
             if (generatedToken != null)
             {
                 HttpContext.Session.SetString("Token", generatedToken);
-                return "Ok";
+                var tokenResponse = new Token { token = generatedToken };
+                return Newtonsoft.Json.JsonConvert.SerializeObject(tokenResponse);
             }
             else
             {
-                return "Jokin meni pieleen!";
+                var tokenResponse = new Token { token = "" };
+                return Newtonsoft.Json.JsonConvert.SerializeObject(tokenResponse);
             }
         }
         else
         {
-            return "Jokin meni pieleen!";
+            var tokenResponse = new Token { token = "" };
+            return Newtonsoft.Json.JsonConvert.SerializeObject(tokenResponse);
         }
     }
 

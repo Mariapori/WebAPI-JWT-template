@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lxu7y4lExvPmxI4Quyy6Qd4Ix6Up1a6SCnQGTPNCHlHxXKQ9Il1eqrR5ma+nzCdkWfIz4df+Tnbk1NNvL+YQ0w==",
+  "dgSpecHash": "EKDWJJbouGV8XZ0DhJnXDx+ckz1SIArOS+bU2txMyQ1nBui/0dnJ6yM7t8bHlvj+VC5VzsODtmQGfDfrGAuM9w==",
   "success": true,
   "projectFilePath": "/Users/topias/Projects/jwtTests/jwtTests/jwtTests.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "/Users/topias/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.10.0/microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
     "/Users/topias/.nuget/packages/microsoft.identitymodel.tokens/6.10.0/microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
     "/Users/topias/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/topias/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/topias/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/Users/topias/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/Users/topias/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

@@ -32,3 +32,4 @@
 /Users/topias/Projects/jwtTests/jwtTests/obj/Debug/net6.0/jwtTests.pdb
 /Users/topias/Projects/jwtTests/jwtTests/obj/Debug/net6.0/jwtTests.genruntimeconfig.cache
 /Users/topias/Projects/jwtTests/jwtTests/obj/Debug/net6.0/ref/jwtTests.dll
+/Users/topias/Projects/jwtTests/jwtTests/bin/Debug/net6.0/Newtonsoft.Json.dll
